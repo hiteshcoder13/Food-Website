@@ -1,0 +1,61 @@
+.best-sellers {
+    background-color: white;
+    padding: 40px 20px;
+  }
+  
+  .best-sellers h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .best-sellers h2 span {
+    color: red;
+  }
+  
+  .best-sellers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .pizza-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .pizza-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .pizza-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .pizza-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .add-to-cart {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .best-seller-item a{
+text-decoration: none;
+font-weight: 900;
+color: orangered;
+
+
+  }
+  .best-seller-item img{
+    height: 30vh;
+    width: 30vw;
+  }

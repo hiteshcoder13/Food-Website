@@ -1,0 +1,118 @@
+.checkout {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cart-items {
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .cart-item-info {
+    flex-grow: 1;
+  }
+  
+  .cart-item-info h4 {
+    margin: 0 0 5px;
+  }
+  
+  .cart-item-info p {
+    margin: 0 0 5px;
+    color: #666;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .remove {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .checkout-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-method {
+    margin-bottom: 20px;
+  }
+  
+  .payment-method h3 {
+    margin-bottom: 10px;
+  }
+  
+  .payment-method div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .payment-method label {
+    margin-left: 10px;
+  }
+  
+  .total {
+    margin-bottom: 20px;
+  }
+  
+  .total h3 {
+    margin: 5px 0;
+  }
+  
+  .order-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .order-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .confirmation {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .confirmation img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .confirmation h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .confirmation p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #666;
+  }
+  

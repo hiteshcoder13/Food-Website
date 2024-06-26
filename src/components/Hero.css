@@ -1,0 +1,35 @@
+.hero {
+    background-color: white;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 48px;
+  }
+  
+  .hero p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .hero-buttons button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .hero-buttons .learn-more {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+  }
+
+ img{
+    width: 300vw;
+    height: 56vh;
+ }
+  

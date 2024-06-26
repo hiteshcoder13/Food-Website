@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: x-large;
+}
+#span{
+  font-size: xx-large;
+}
